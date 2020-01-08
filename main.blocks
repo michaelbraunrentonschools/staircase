@@ -1,0 +1,22 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="_`,ARrS;m7j,F3gSd=1I">Player</variable><variable type="KIND_SpriteKind" id="@JJ~C_2Zm[zxlIa~jaZ#">Projectile</variable><variable type="KIND_SpriteKind" id="O@L%VpU?65DLn|F3So$j">Food</variable><variable type="KIND_SpriteKind" id="5iqe_6%!n`$z)Uv6!m3Q">Enemy</variable><variable id="zrzh2GA/~x,bal7@#++b">mySprite</variable><variable id="sre?kmPYeZ]hWx*+}m39">juan</variable></variables><block type="pxt-on-start" x="-170" y="-230"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="sre?kmPYeZ]hWx*+}m39">juan</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+f f f f 1 1 1 1 1 1 1 f f f f f 
+f f f 1 1 1 f f f f 1 1 f f f f 
+f f 1 f f f f f f f f f 1 f f f 
+f f 1 f f 5 f f f 5 f f 1 f f f 
+f f 1 f f f f f f f f f 1 f f f 
+f f 1 f f f f f f f f f 1 f f f 
+f f 1 1 f 5 f f f 5 f 1 1 f f f 
+f f 1 1 f 5 5 5 5 5 f 1 1 f f f 
+f f 1 1 f f 5 5 f f f 1 1 f f f 
+f f 1 1 f f f f f f f 1 1 f f f 
+f f 1 1 1 f f f f f 1 1 1 f f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">14</field></shadow></value><next><block type="controls_repeat_ext"><comment id="undefined" pinned="true" h="177.3746337890625" w="536.9576416015625">Stairs are going down
+
+GOAL 1: stairs that also go up
+
+GOAL 2: make second character. make it go in opposite direction of first staircase</comment><value name="TIMES"><shadow type="math_whole_number"><field name="NUM">9</field></shadow></value><statement name="DO"><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="sre?kmPYeZ]hWx*+}m39">juan</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">4</field></shadow></value><next><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow></value><next><block type="Sprite_blockCombine_change"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="sre?kmPYeZ]hWx*+}m39">juan</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">4</field></shadow></value></block></next></block></next></block></next></block></statement></block></next></block></next></block></statement></block></xml>
