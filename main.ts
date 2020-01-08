@@ -17,14 +17,15 @@ f f f f f f f f f f f f f f f f
 f f f f f f f f f f f f f f f f 
 `, SpriteKind.Player)
 scene.setBackgroundColor(14)
-// Stairs are going down
+// Exercise: Create stairs are going down
 //
 //
-// GOAL 1: stairs that also go up
+// GOAL 1: Create stairs that also go up
 //
 //
-// GOAL 2: make second character. make it go in
-// opposite direction of first staircase
+// GOAL 2: Create a second character; it goes in the
+// opposite direction of first staircase. Both
+// characters meet in the beginning
 for (let index = 0; index < 9; index++) {
     pause(100)
     juan.y += 4
